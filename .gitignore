@@ -1,0 +1,23 @@
+# Never publish MetaTrader source files from this distribution repository.
+*.mq4
+*.mq5
+*.mqh
+
+# Never commit local credentials, signing material, or environment files.
+.env
+.env.*
+*.pem
+*.pfx
+*.p12
+*.key
+*credentials*
+*secrets*
+
+# Local and editor files.
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak
