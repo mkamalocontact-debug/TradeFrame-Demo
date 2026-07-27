@@ -1,0 +1,50 @@
+name: Publish Demo Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/publish-release.yml"
+      - "downloads/**"
+      - "CHECKSUMS.txt"
+      - "RELEASE_NOTES.md"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Create or update release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tag="v1.0.0"
+
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" \
+              downloads/TradeFrame-Demo-MT5-v1.00.zip \
+              downloads/TradeFrame-Demo-MT4-v1.00.zip \
+              CHECKSUMS.txt \
+              --clobber
+            gh release edit "$tag" \
+              --title "TradeFrame Demo 1.00" \
+              --notes-file RELEASE_NOTES.md \
+              --latest
+          else
+            gh release create "$tag" \
+              downloads/TradeFrame-Demo-MT5-v1.00.zip \
+              downloads/TradeFrame-Demo-MT4-v1.00.zip \
+              CHECKSUMS.txt \
+              --title "TradeFrame Demo 1.00" \
+              --notes-file RELEASE_NOTES.md \
+              --latest
+          fi
