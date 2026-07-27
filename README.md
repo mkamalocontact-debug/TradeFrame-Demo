@@ -64,6 +64,12 @@ you place.
 SHA-256 hashes are published in [CHECKSUMS.txt](CHECKSUMS.txt). Compare the hash
 after downloading if you want to verify that the file is unchanged.
 
+## Distribution
+
+The original, unmodified Demo package may be shared freely. Selling, modifying,
+decompiling, repackaging, or misrepresenting the software is prohibited. See
+[LICENSE.md](LICENSE.md) for the complete distribution terms.
+
 ## Live-account licensing
 
 For the TradeFrame Live edition, contact:
@@ -76,4 +82,3 @@ Trading involves substantial risk. TradeFrame is an execution and
 risk-calculation utility, not financial advice or a profit-guaranteeing system.
 Always verify order direction, volume, Entry, Stop Loss, and Take Profit before
 execution.
-
