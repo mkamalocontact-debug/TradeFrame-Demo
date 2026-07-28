@@ -2,19 +2,21 @@
   <img src="assets/TradeFrame-Logo.png" width="180" alt="TradeFrame logo">
 </p>
 
-# TradeFrame Demo
+# TradeFrame Demo: Free MT4 & MT5 Position Sizer and Trade Execution Utility
 
-TradeFrame Demo is a free manual trade-execution and position-sizing panel for
-MetaTrader 4 and MetaTrader 5 demo accounts.
+TradeFrame Demo is a free MetaTrader position sizer, lot-size calculator, risk
+management and manual trade-execution utility for MT4 and MT5 demo accounts.
 
 It places draggable Entry, Stop Loss, and Take Profit controls directly on the
 chart and calculates volume from the selected risk settings.
 
+**Official website:** [KamalQuant Product Hub](https://kamalquant.github.io/#tradeframe)
+
 ## Download
 
-- [Download TradeFrame Demo for MT5](https://github.com/mkamalocontact-debug/TradeFrame-Demo/releases/latest/download/TradeFrame-Demo-MT5-v1.00.zip)
-- [Download TradeFrame Demo for MT4](https://github.com/mkamalocontact-debug/TradeFrame-Demo/releases/latest/download/TradeFrame-Demo-MT4-v1.00.zip)
-- [View the latest release](https://github.com/mkamalocontact-debug/TradeFrame-Demo/releases/latest)
+- [Download TradeFrame Demo for MT5](https://github.com/KamalQuant/TradeFrame-Demo/releases/latest/download/TradeFrame-Demo-MT5-v1.00.zip)
+- [Download TradeFrame Demo for MT4](https://github.com/KamalQuant/TradeFrame-Demo/releases/latest/download/TradeFrame-Demo-MT4-v1.00.zip)
+- [View the latest release](https://github.com/KamalQuant/TradeFrame-Demo/releases/latest)
 
 ## Important
 
