@@ -72,11 +72,9 @@ The original, unmodified Demo package may be shared freely. Selling, modifying,
 decompiling, repackaging, or misrepresenting the software is prohibited. See
 [LICENSE.md](LICENSE.md) for the complete distribution terms.
 
-## Live-account licensing
+## Support and customization
 
-For the TradeFrame Live edition, contact:
-
-**WhatsApp: +92 370 875 7882**
+[Contact KamalQuant on WhatsApp](https://wa.me/923708757882) for installation, licensing, or product support. Custom configurations may be available on request; requirements and pricing are agreed separately.
 
 ## Risk notice
 
