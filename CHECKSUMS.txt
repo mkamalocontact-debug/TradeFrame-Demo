@@ -1,6 +1,6 @@
 ﻿# SHA-256 checksums for TradeFrame Demo 1.00
 
-3c5a648f93a793607b34c416db94451fe26b782fc458639b7945a6fccc928f52  TradeFrame Demo.ex5
-b6261e9bcad59737c634ed92ddde01e3b5162e52715c9f48372e6321c6ad0da1  TradeFrame Demo.ex4
-806e48280bc80d6623eb261e5276db81bc96648652f662942f731e7039ef57dd  TradeFrame-Demo-MT5-v1.00.zip
-589cb89c87b5724bbb66f5f9ae4e94cc349ddc40e37c82897ced2b116a3728af  TradeFrame-Demo-MT4-v1.00.zip
+4ff64ec37e037b359616a2ec77f4363c85622e651307e54de404fa962913f9ef  TradeFrame Demo.ex5
+544ad11f2dd4bca73fffbe0531ab30fb661a0c91be4ed1c6730a1d338d178bd0  TradeFrame Demo.ex4
+7ef44ad706c0c896aa1979e6953a98efed2391e0739fa480b56db3a8795729f9  TradeFrame-Demo-MT5-v1.00.zip
+46e51adbdb8af33be231a76545be8f2e656e20713db99ed286a0ecfad99d848e  TradeFrame-Demo-MT4-v1.00.zip
